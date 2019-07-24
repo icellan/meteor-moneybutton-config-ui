@@ -1,0 +1,22 @@
+<template name="configureLoginServiceDialogForMoneyButton">
+    <p>
+        First, you'll need to register your app on Money Button. Follow these steps:
+    </p>
+    <ol>
+        <li>
+            Visit <a href="https://www.moneybutton.com/settings" target="_blank">https://www.moneybutton.com/settings</a>
+        </li>
+        <li>
+            Give your app a name and fill on the Url: {{siteUrl}}.
+        </li>
+        <li>
+            Click on "Create App".
+        </li>
+        <li>
+            Set Website to: <span class="url">{{siteUrl}}</span>
+        </li>
+        <li>
+            Set OAuth redirect URL to: <span class="url">{{siteUrl}}_oauth/moneybutton</span>
+        </li>
+    </ol>
+</template>
